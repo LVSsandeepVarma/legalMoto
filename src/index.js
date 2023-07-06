@@ -1,14 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import { I18nextProvider } from 'react-i18next';
+import i18n from './i18n';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'tailwindcss/tailwind.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+import LanguageSwitcher from './languageSwitcher';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <I18nextProvider i18n={i18n}>
+    <LanguageSwitcher>
+  {/* // <React.StrictMode> */}
     <App />
-  </React.StrictMode>
+    </LanguageSwitcher>
+  {/* // </React.StrictMode> */}
+  </I18nextProvider>
 );
 
 // If you want to start measuring performance in your app, pass a function

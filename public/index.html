@@ -2,19 +2,39 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="%PUBLIC_URL%/images/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
       content="Web site created using create-react-app"
     />
+    <!-- <meta http-equiv="Content-Security-Policy" content= "connect-src 'self' https://stripe.com/cookie-settings/enforcement-mode https://api.stripe.com https://errors.stripe.com https://r.stripe.com">
+    <meta http-equiv="Content-Security-Policy" content="frame-src 'self' https://js.stripe.com/ 'unsafe-inline'">
+    <meta http-equiv="Content-Security-Policy" content="
+  img-src 'self'  data:;
+"> -->
+
+
+
+
+
+    <meta name="keywords" content="one page, html, template, responsive, business">
+    <meta name="author" content="sharjeel anjum">
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    
+
+
+    
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -24,9 +44,11 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Legal Moto</title>
+    
   </head>
   <body>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
@@ -39,5 +61,17 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=6LfngUwbAAAAAKuPu0K76s9aUHl0B5RFN10enmMi"></script>
+        <script src="js/custom.js"></script>
+        <div id="recaptcha"><div class="grecaptcha-badge" data-style="bottomright" style="width: 256px; height: 60px; display: block; transition: right 0.3s ease 0s; position: fixed; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;"><div class="grecaptcha-logo"><iframe title="reCAPTCHA" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LfngUwbAAAAAKuPu0K76s9aUHl0B5RFN10enmMi&amp;co=aHR0cHM6Ly9ndGVjaHdlYnNlcnZpY2UuY29tOjQ0Mw..&amp;hl=en&amp;v=IqA9DpBOUJevxkykws9RiIBs&amp;size=invisible&amp;cb=hip14rfc2tsj" width="256" height="60" role="presentation" name="a-78gk13pz2cyh" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><div class="grecaptcha-error"></div><textarea id="g-recaptcha-response-100000" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div>
+        <script>
+          // Check if the current page is the checkout page
+          if (window.location.pathname === "/terms" || window.location.pathname === "/privacy-policy" || window.location.pathname === "/refund-policy" || window.location.pathname === "/agreement-contract") {
+            // Hide the additional content
+            var additionalContent = document.getElementById("recaptcha");
+            additionalContent.style.display = "none";
+          }
+        </script>
   </body>
 </html>
