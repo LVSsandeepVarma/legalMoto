@@ -19,8 +19,8 @@ export default function ContactDetails() {
             </div>
             <h2 className="font-bold text-center mt-2">{t("ADDRESS")}</h2>
             <p className="text-center !text-[#545454] font-bold">
-              Level-6 & 6M, Menara The Stride, Bukit Bintang City Center, No.2,
-              Jalan Hang Tuah, 55100, Kuala Lumpur, Malaysia
+              No 3FC, 401, East of NGEF BDA L/O, Vijinapura RM Nagar, Bengaluru
+              (Bangalore) Urban, Karnataka, 560016
             </p>
           </div>
           <div className="col-md-4 ">
@@ -30,9 +30,7 @@ export default function ContactDetails() {
               </div>
             </div>
             <h2 className="font-bold text-center mt-2">{t("PHONE")}</h2>
-            <p className="text-center !text-[#545454] font-bold">
-              +60 194260687
-            </p>
+            <p className="text-center !text-[#545454] font-bold">+91 7094000011</p>
           </div>
           <div className="col-md-4 ">
             <div className="flex justify-center intems-center">
@@ -42,9 +40,9 @@ export default function ContactDetails() {
             </div>
             <h2 className="font-bold text-center mt-2">{t("EMAIL")}</h2>
 
-            <a href="mailto:file@thelegalmoto.com">
+            <a href="mailto:info@thelegalmoto.com">
               <p className="text-center !text-[#545454] font-bold">
-                file@thelegalmoto.com
+                info@thelegalmoto.com
               </p>
             </a>
           </div>

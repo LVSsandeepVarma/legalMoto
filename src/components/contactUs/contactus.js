@@ -34,7 +34,7 @@ export default function Contactus() {
     name: "",
     name: "",
     phone: "",
-    country: "Malaysia",
+    country: "India",
     message: "",
   });
 
@@ -264,9 +264,9 @@ export default function Contactus() {
                           {" "}
                           <strong>Address:</strong>
                           <p>
-                            Level-6 &amp; 6M, Menara The Stride, Bukit Bintang
-                            City Center, No.2, Jalan Hang Tuah, 55100, Kuala
-                            Lumpur, Malaysia
+                            No 3FC, 401, East of NGEF BDA L/O, Vijinapura RM
+                            Nagar, Bengaluru (Bangalore) Urban, Karnataka,
+                            560016
                           </p>
                         </div>
                       </div>
@@ -279,8 +279,8 @@ export default function Contactus() {
                           {" "}
                           <strong>Email Address:</strong>
                           <p>
-                            <a href="mailto:file@thelegalmoto.com">
-                              file@thelegalmoto.com
+                            <a href="mailto:info@thelegalmoto.com">
+                              info@thelegalmoto.com
                             </a>
                           </p>
                         </div>
@@ -294,7 +294,7 @@ export default function Contactus() {
                           {" "}
                           <strong>Phone No:</strong>
                           <p>
-                            <a href="tel:+60194260687">+60 194260687</a>
+                            <a href="tel:+917094000011">+91 7094000011</a>
                           </p>
                         </div>
                       </div>
@@ -322,7 +322,7 @@ export default function Contactus() {
                             name: "",
                             phone: "",
                             email: "",
-                            country: "Malaysia",
+                            country: "India",
                             message: "",
                           }}
                           validationSchema={validationSchema}
@@ -335,7 +335,7 @@ export default function Contactus() {
                                   type="text"
                                   id="name"
                                   name="name"
-                                  placeholder="Full Name (Nama Penuh)"
+                                  placeholder="Full Name"
                                   className="p-2.5 w-full !bg-white"
                                 />
                                 <ErrorMessage
@@ -349,7 +349,7 @@ export default function Contactus() {
                                 <Field
                                   type="email"
                                   name="email"
-                                  placeholder="Email Id (ID Emel)"
+                                  placeholder="Email Id"
                                   className="p-2.5 w-full"
                                 />
                                 <ErrorMessage
@@ -363,7 +363,7 @@ export default function Contactus() {
                                 <Field
                                   type="number"
                                   id="phone"
-                                  placeholder="Phone Number (Nombor Telefon)"
+                                  placeholder="Phone Number"
                                   name="phone"
                                   className="p-2.5 w-full"
                                 />
@@ -379,11 +379,11 @@ export default function Contactus() {
                                   as="select"
                                   id="country"
                                   name="country"
-                                  placeholder="Your Country (Negera Awak)"
+                                  placeholder="Your Country"
                                   className="p-2 w-full"
                                 >
                                   {countryData?.map((val, ind) => {
-                                    return val?.name == "Malaysia" ? (
+                                    return val?.name == "India" ? (
                                       <option value={val?.name} selected={true}>
                                         {val?.name}
                                       </option>
@@ -407,7 +407,7 @@ export default function Contactus() {
                                 <Field
                                   as="textarea"
                                   id="message"
-                                  placeholder="Message (Mesej)"
+                                  placeholder="Message"
                                   name="message"
                                   className="p-2 w-full h-[20vh]"
                                 />
@@ -440,7 +440,7 @@ export default function Contactus() {
                 </div>
               </div>
             </div>
-            <div className="google-map">
+            {/* <div className="google-map">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d995.9577415656784!2d101.70817027560383!3d3.1393003383860325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zM8KwMDgnMjEuNSJOIDEwMcKwNDInMzMuOCJF!5e0!3m2!1sen!2sin!4v1688542498527!5m2!1sen!2sin"
                 width="100%"
@@ -450,7 +450,7 @@ export default function Contactus() {
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"
               ></iframe>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

@@ -761,7 +761,7 @@ export default function PaymentStatus() {
       </div>
       <footer className="pt-0 pb-0">
         <p className="mb-0 text-center fs-14 text-muted py-3">
-          Copyright <span className="lbl-orange">©2023</span>, All Rights
+          Copyright <span className="lbl-orange">©{new Date().getFullYear()}</span>, All Rights
           Reserved by <span className="lbl-orange">Legal Moto</span>.
         </p>
       </footer>

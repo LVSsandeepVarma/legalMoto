@@ -205,12 +205,12 @@ export default function Privacy() {
                   please contact us at:
                   <br />
                   <strong>
-                    Level-6 &amp; 6M, Menara The Stride, Bukit Bintang City
-                    Center, No.2, Jalan Hang Tuah, 55100, Kuala Lumpur, Malaysia
+                    No 3FC, 401, East of NGEF BDA L/O, Vijinapura RM Nagar,
+                    Bengaluru (Bangalore) Urban, Karnataka, 560016
                   </strong>
                 </p>
 
-                <p>This document was last updated on March, 2022</p>
+                <p>This document was last updated on January, {new Date().getFullYear()}</p>
 
                 <p>Privacy policy created by Generate Privacy Policy</p>
               </div>

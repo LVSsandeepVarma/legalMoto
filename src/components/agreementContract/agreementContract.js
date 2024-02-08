@@ -272,7 +272,7 @@ export default function Agreement() {
                   same.
                 </p>
 
-                <h4>Twelfth Article:</h4>
+                <h4>Twelth Article:</h4>
                 <p>
                   This contract is issued in duplicate, and both parties
                   understood and confirmed its contents then undertook to

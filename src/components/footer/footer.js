@@ -25,11 +25,8 @@ export default function Footer() {
                     crossorigin="anonymous"
                     integrity="sha384-L+Rcy9bX7LEQlg9NZzTFP87t1GDtEWMzMJ2j0byDOg2ufQxSr7RATNzXeXug08jg"
                   ></script>
-                  <script>
-                    var CurrentYear = new Date().getFullYear()
-                    document.write(CurrentYear)
-                  </script>
-                  2023, All Rights Reserved by{" "}
+                  
+                  { new Date().getFullYear()}, All Rights Reserved by{" "}
                   <strong>
                     <i>Legal Moto</i>
                   </strong>
