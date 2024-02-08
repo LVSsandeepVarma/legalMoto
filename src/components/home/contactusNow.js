@@ -14,9 +14,9 @@ export default function ContactusNow() {
 
   return (
     <>
-      <div className="row !bg-red-600 text-center text-white pt-[50px] pb-[50px] !mt-[50px]">
+      <div className=" !bg-red-600 text-center text-white pt-[50px] pb-[50px] !mt-[50px]">
         <h2>{t("Call_Today_For_A_FREE_Consultation")}</h2>
-        <h1 className="font-bold">+60 194260687</h1>
+        <h1 className="font-bold">+91 7094000011</h1>
         <p>{t("Get_Help_with_All_of_Your_Legal_Needs")}</p>
         <div className="flex justify-center">
           <Button

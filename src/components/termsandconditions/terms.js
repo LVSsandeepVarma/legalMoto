@@ -40,15 +40,15 @@ export default function Terms() {
             <div class="col-lg-12">
               <div class="ters-text text-gray-700 subpixel-antialiased">
                 <p>
-                  Legal Moto (Global Future Wide SDN. BHD.), Level-6 &amp; 6M,
-                  Menara The Stride, Bukit Bintang City Center, No.2, Jalan Hang
-                  Tuah, 55100, Kuala Lumpur, Malaysia. For more information
-                  visit our website and understand the information, resources,
-                  services, products, and tools we provide and agree to accept
-                  and adhere to the following terms and conditions as stated in
-                  this policy (hereafter referred to as ‘End User Agreement’),
-                  along with the terms and conditions as stated in our Privacy
-                  (on our website)
+                  Legal Moto (Global Future Wide SDN. BHD.), No 3FC, 401, East
+                  of NGEF BDA L/O, Vijinapura RM Nagar, Bengaluru (Bangalore)
+                  Urban, Karnataka, 560016. For more information visit our
+                  website and understand the information, resources, services,
+                  products, and tools we provide and agree to accept and adhere
+                  to the following terms and conditions as stated in this policy
+                  (hereafter referred to as ‘End User Agreement’), along with
+                  the terms and conditions as stated in our Privacy (on our
+                  website)
                 </p>
 
                 <p>

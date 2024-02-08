@@ -66,7 +66,7 @@ export default function FindYourCaseDetails() {
           {/* Additional footer buttons can be added here */}
         </Modal.Footer>
       </Modal>
-      <div className="row !mt-[150px]">
+      <div className=" !mt-[150px]">
         <div class="newsletter bg-black pt-[20px] pb-[20px]">
           <div class="container">
             <div class="row">

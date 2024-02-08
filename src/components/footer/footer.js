@@ -29,7 +29,7 @@ export default function Footer() {
                     var CurrentYear = new Date().getFullYear()
                     document.write(CurrentYear)
                   </script>
-                  2023, All Rights Reserved by{" "}
+                  {new Date().getFullYear()}, All Rights Reserved by{" "}
                   <strong>
                     <i>Legal Moto</i>
                   </strong>

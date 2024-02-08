@@ -205,8 +205,8 @@ export default function Privacy() {
                   please contact us at:
                   <br />
                   <strong>
-                    Level-6 &amp; 6M, Menara The Stride, Bukit Bintang City
-                    Center, No.2, Jalan Hang Tuah, 55100, Kuala Lumpur, Malaysia
+                    No 3FC, 401, East of NGEF BDA L/O, Vijinapura RM Nagar,
+                    Bengaluru (Bangalore) Urban, Karnataka, 560016
                   </strong>
                 </p>
 

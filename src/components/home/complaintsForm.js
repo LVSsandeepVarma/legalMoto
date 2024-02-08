@@ -64,11 +64,11 @@ const ComplaintForm = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
-  const [country, setCountry] = useState("Malaysia");
+  const [country, setCountry] = useState("India");
   const [complaint, setComplaint] = useState("");
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [countryData, setCountryData] = useState([]);
-  const [phoneCode, setPhonecode] = useState("60");
+  const [phoneCode, setPhonecode] = useState("91");
   const [showLoader, setShowLoader] = useState(false);
   const [errors, setErrors] = useState({
     name: "",
@@ -253,7 +253,7 @@ const ComplaintForm = () => {
             setEmail("");
             setPhone("");
             setComplaint("");
-            setCountry("Malaysia");
+            setCountry("India");
             setPhonecode("60");
             setErrors(errObj);
           } else if (response?.data?.type === "lead") {
@@ -362,7 +362,7 @@ const ComplaintForm = () => {
                     }}
                     className="!text-white"
                     // label="Full Name"
-                    placeholder="Full Name (Nama Penuh)"
+                    placeholder="Full Name"
                     variant="outlined"
                     value={name}
                     onChange={(event) => setName(event.target.value)}
@@ -395,7 +395,7 @@ const ComplaintForm = () => {
                       //borderRadius:"10px"
                     }}
                     // label="Email Id "
-                    placeholder="Email Id (ID Emel)"
+                    placeholder="Email Id"
                     variant="outlined"
                     value={email}
                     onChange={(event) => handleEmailchange(event)}
@@ -439,7 +439,7 @@ const ComplaintForm = () => {
                     error={!errors.country}
                   >
                     {countryData?.map((val, ind) => {
-                      return val?.name == "Malaysia" ? (
+                      return val?.name == "India" ? (
                         <option value={val?.name} selected={true}>
                           {val?.name}
                         </option>
@@ -469,7 +469,7 @@ const ComplaintForm = () => {
                       //borderRadius:"10px"
                     }}
                     //label="Phone Number"
-                    placeholder="Phone (Nombor Telefon)"
+                    placeholder="Phone"
                     variant="outlined"
                     value={phone}
                     onChange={(event) => setPhone(event.target.value)}
@@ -512,7 +512,7 @@ const ComplaintForm = () => {
                       //borderRadius:"10px"
                     }}
                     // //label="Complaint Against"
-                    placeholder="Complaint Against (Aduan Terhadap)"
+                    placeholder="Complaint Against"
                     variant="outlined"
                     value={complaint}
                     onChange={(event) => setComplaint(event.target.value)}

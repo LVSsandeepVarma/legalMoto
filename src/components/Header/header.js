@@ -177,7 +177,7 @@ const NavBar = () => {
                   ? "text-white"
                   : "text-black"
               } p-0 ml-1 !shadow-[0,35px,60px,-15px,rgba(250,250,0,1)] `}
-              href="tel:+60194260687"
+              href="tel:+917094000011"
             >
               <div
                 className="flex items-center  shadow-red-300 !bg-red-600"
@@ -187,7 +187,7 @@ const NavBar = () => {
                 }}
               >
                 <FaPhone className="mr-1 ml-2" size={15} color="white" />{" "}
-                <p className="!m-0 p-1 !text-white">+60 194260687 </p>
+                <p className="!m-0 p-1 !text-white">+91 7094000011 </p>
               </div>
             </Nav.Link>
           </Nav>
@@ -198,11 +198,7 @@ const NavBar = () => {
         style={{ overflowX: "hidden", float: "right" }}
       >
         <LanguageSelector />
-
-
-
       </div>
-
     </Navbar>
   );
 };

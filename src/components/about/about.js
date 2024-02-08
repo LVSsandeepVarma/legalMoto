@@ -105,7 +105,7 @@ export default function About() {
             </div>
           </div>
         </div>
-        <div className="row statistics !mt-[50px]">
+        <div className=" statistics !mt-[50px]">
           <div className="flex justify-center">
             <div className="card bg-transparent ml-5 mr-5">
               <div className="row">
