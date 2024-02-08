@@ -1,0 +1,13 @@
+.carousel .slide {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  height: 100vh !important; /* Adjust the height as needed */
+}
+
+.carousel .slide img {
+  max-height: 100%;
+  max-width: 100%;
+  width: 100%;
+  object-fit: contain;
+}

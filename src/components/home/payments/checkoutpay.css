@@ -1,0 +1,86 @@
+.button-icon {
+  margin-right: 0.5rem;
+}
+
+.pay-button {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pay-button:before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    60deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.8) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  opacity: 0;
+  transform: rotate(1deg) translateX(-200%);
+  animation: shine-animation 3s linear infinite;
+}
+
+.pay-button::before {
+  opacity: 1;
+  transform: rotate(90deg) translateX(200%) infinite;
+}
+
+.pay-button-hover {
+  position: absolute;
+  top: -100%;
+  left: -100%;
+  width: 200%;
+  height: 200%;
+  background-color: rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+/* .pay-button:hover {
+    transform: scale(1.1);
+  } */
+
+.button-icon {
+  transition: transform 0.3s ease;
+}
+
+.pay-button:hover .button-icon {
+  animation: pulse 0.8s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes shine-animation {
+  0% {
+    opacity: 0;
+    left: -200%;
+    transform: rotate(45deg) translateX(-200%);
+  }
+  50% {
+    opacity: 1;
+    left: 100%;
+    transform: rotate(45deg) translateX(200%);
+  }
+  100% {
+    opacity: 0;
+    left: 100%;
+    transform: rotate(45deg) translateX(-200%);
+  }
+}
